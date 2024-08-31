@@ -1,0 +1,31 @@
+
+body {
+    background: #f5f5f5;
+}
+
+
+.card {
+    margin: 50px;
+    width: 800px;
+    height: 800px;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+p, a {
+    font-size: 1rem;
+}
+
+a {
+    color: #4d4ae8;
+    text-decoration: none;
+}

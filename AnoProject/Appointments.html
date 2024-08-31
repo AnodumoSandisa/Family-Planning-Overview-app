@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Pre_natal___Pregnacy_Application</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="FamilyAppointments.css">
+    <link rel="stylesheet" href="~/Pre_natal___Pregnacy_Application.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <section class="container">
+        <header>Appointment</header>
+        <img src="uluntu.jpg" />
+        <form action="#" class="form">
+            <div class="select-box">
+                <select>
+
+                    <label>Services:</label>
+                    <option hidden>Choose service</option>
+                    <option>Check-Up</option>
+                    <option>Ultra-sound</option>
+                    <option>Tummy Measurements</option>
+
+                </select>
+            </div>
+
+            <div class="input-box">
+                <input class="form-control" id="mail" type="email" placeholder="Enter email address" required />
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <p>Time</p>
+                    <input type="time" class="form-control" id="appt" name="appt">
+                </div>
+                <div class="input-box">
+                    <p>Date:</p>
+                    <input type="date" class="form-control" placeholder="Enter birth date" required />
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Preference</h3>
+                <div class="gender-option">
+                    <div class="gender">
+
+                        <input type="radio" class="form-control" id="check-male" name="gender" checked />
+                        <p>Tele-health</p>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" class="form-control" id="tele-health" name="gender" />
+                        <p>In-Person</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <button>Book Appointment</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
